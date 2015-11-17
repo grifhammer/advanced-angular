@@ -1,1 +1,5 @@
-<h1>Country Details Go Here!</h1>
+<h1>{{country.name}}</h1>
+<h2>{{country.capital}}</h2>
+<h2>{{country.population | number}}</h2>
+<h2>{{country.gdp | currency:undefined: 0}}</h2>
+<img src="{{country.flagURL}}" width=200>

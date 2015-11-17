@@ -1,0 +1,6 @@
+apache serving page
+sudo vi /etc/hosts
+	insert local site
+sudo vi /etc/apache2/extra/httpd-vhosts.conf
+	Add new vhost for local site
+restart apache (sudo apachectl restart)
